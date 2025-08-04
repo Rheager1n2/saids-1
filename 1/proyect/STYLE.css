@@ -1,0 +1,49 @@
+body{ background-color:transparent;
+     background-image: url(img/Arthas.jpg);
+     background-repeat: no-repeat ;
+     background-size: cover;
+     min-height: 100vh;
+     background-position: auto center;
+     opacity: 0.8;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+h1, h2 {color: #d4af37;
+    text-align: center; 
+    text-shadow: 0 0 5px #8dc7f7, 0 0 10px #0078D7;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    margin-top: 50px;
+    -webkit-text-stroke: 0.5px rgb(196, 199, 31);
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+h3 {color: rgb(245, 165, 15);
+    text-align: center;
+    margin-top: -200px;
+    margin-right: 0px;
+    background-image: center;
+}
+.img-izquierda {
+    opacity: 0.7;
+    display: block;
+    margin:auto;
+    max-width: 100%;
+}
+.img-derecha {
+    opacity: 0.7;
+    display: block;
+    margin:auto;
+    max-width: 100%;
+}
+.img-centro {
+    opacity: 0;
+    display: block;
+    margin:auto;
+    max-width: 100%;
+}
